@@ -28,24 +28,32 @@ class ViewController: UIViewController {
     
     func calc(firstNumber: String, secondNumber: String, operatorCalc: String) {
         if firstNumber.isInt && secondNumber.isInt {
-            if operatorCalc == "+" {
+
+            switch operatorCalc {
+            case "+":
                 resultTextLabel.text = String(Int(firstNumber)! + Int(secondNumber)!)
-            }
-            else if operatorCalc == "-" {
+                resultTextLabel.textColor = .black
+
+            case "-":
                 resultTextLabel.text = String(Int(firstNumber)! - Int(secondNumber)!)
-            }
-            else if operatorCalc == "*" {
+                resultTextLabel.textColor = .black
+
+            case "*":
                 resultTextLabel.text = String(Int(firstNumber)! * Int(secondNumber)!)
-            }
-            else if operatorCalc == "/" {
+                resultTextLabel.textColor = .black
+
+            case "/":
                 resultTextLabel.text = String(Double(firstNumber)! / Double(secondNumber)!)
-            }
-            else {
+                resultTextLabel.textColor = .black
+
+            default:
                 resultTextLabel.text = "Incorrect data"
+                resultTextLabel.textColor = .red
             }
         }
         else {
             resultTextLabel.text = "Incorrect data"
+            resultTextLabel.textColor = .red
         }
     }
     

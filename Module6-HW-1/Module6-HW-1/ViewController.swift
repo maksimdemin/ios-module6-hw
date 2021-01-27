@@ -17,8 +17,13 @@ class ViewController: UIViewController {
     var name = ""
     @IBAction func converField(_ sender: Any) {
         
-        name += "\(originalTextField.text!) "
+        if let checkString = originalTextField.text ?? nil {
+        
+        name += "\(checkString) "
         resultTextLabel.text = name
+        } else {
+            resultTextLabel.text = "Incorrect data"
+        }
         
     }
     

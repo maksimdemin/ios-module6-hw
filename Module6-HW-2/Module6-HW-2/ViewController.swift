@@ -16,23 +16,20 @@ class ViewController: UIViewController {
     
     
     @IBAction func calculateField(_ sender: Any) {
-        func powDigit(digit: Double) -> Int {
+        func powDigit(digit: Double) -> Double {
             guard digit >= 0 else {
                 return 0
             }
-            return Int(pow(2, digit))
+            return pow(2, digit)
         }
         
-        
-        let numberCharacters = NSCharacterSet.decimalDigits
-
-        if Int(digitTextField.text!) != nil
-            {
-            resultTextLabel.text = String(powDigit(digit: Double(digitTextField.text!)!))
-        }
-        else if (digitTextField.text?.rangeOfCharacter(from: numberCharacters) == nil || Int(digitTextField.text!) == nil)
-        {
+        if let num = Double(digitTextField.text ?? "") {
+            resultTextLabel.text = String(powDigit(digit: num))
+                .replacingOccurrences(of: ".0", with: "")
+            resultTextLabel.textColor = .black
+        } else {
             resultTextLabel.text = "Enter an integer into the string"
+            resultTextLabel.textColor = .red
         }
     }
 }

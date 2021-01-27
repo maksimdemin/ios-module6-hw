@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5BF0A3F0-DDBF-4FBB-AFD1-DD96CFDF4596"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01FC97F3-A653-4E51-BE19-A349DB9B84F6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Module6-HW-3/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "01FC97F3-A653-4E51-BE19-A349DB9B84F6 - 8c6e373777391742"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Module6_HW_3.ViewController.calc(firstNumber: Swift.String, secondNumber: Swift.String, operatorCalc: Swift.String) -&gt; ()"
+                  moduleName = "Module6-HW-3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimdemin/Documents/SkillBox/Swift/Module%206/Module6-HW-3/Module6-HW-3/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "01FC97F3-A653-4E51-BE19-A349DB9B84F6 - 8c6e373777391742"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Module6_HW_3.ViewController.calc(firstNumber: Swift.String, secondNumber: Swift.String, operatorCalc: Swift.String) -&gt; ()"
+                  moduleName = "Module6-HW-3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimdemin/Documents/SkillBox/Swift/Module%206/Module6-HW-3/Module6-HW-3/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1336">
+               </Location>
+               <Location
+                  uuid = "01FC97F3-A653-4E51-BE19-A349DB9B84F6 - 8c6e373777391742"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Module6_HW_3.ViewController.calc(firstNumber: Swift.String, secondNumber: Swift.String, operatorCalc: Swift.String) -&gt; ()"
+                  moduleName = "Module6-HW-3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimdemin/Documents/SkillBox/Swift/Module%206/Module6-HW-3/Module6-HW-3/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "2472">
+               </Location>
+               <Location
+                  uuid = "01FC97F3-A653-4E51-BE19-A349DB9B84F6 - 8c6e373777391742"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Module6_HW_3.ViewController.calc(firstNumber: Swift.String, secondNumber: Swift.String, operatorCalc: Swift.String) -&gt; ()"
+                  moduleName = "Module6-HW-3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimdemin/Documents/SkillBox/Swift/Module%206/Module6-HW-3/Module6-HW-3/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "3616">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
